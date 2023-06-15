@@ -369,8 +369,12 @@ img{
 
 .footer p{
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-family: var(--fuenteSecundaria);
     color: var(--primario);
     padding: 2rem 0;
+}
+@media (min-width: 768px) { 
+   .footer p{
+    font-size: 2.4rem;
 }
